@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+    background-color: white;
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    background-color: white;
+    margin: 25px auto ;
+    background-color: aqua;
+    box-shadow: 0 0 25px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.kiri {
+    width: 50%;
+    background-color: #00cc66;
+    height: 76%;
+    padding: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+
+.kiri h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kiri p{
+    text-align: center;
+}
+
+.signin {
+    padding: 13px;
+    width: 150px;
+    border-radius:  30px;
+    background-color:#00cc66;
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    margin-top: 20px;
+    
+    
+}
+
+.kanan{
+    max-width: 50%;
+    height: 76%;
+    padding: 70px;
+        background-color: white;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.kanan h2 {
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    padding: 15px;
+      background-color: white;
+    color: black;
+    border: solid rgba(128, 128, 128, 0.253) 1px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 10px;
+
+}
+
+.inputform {
+    width: 100%;
+}
+
+p {
+    margin-bottom: -13px;
+    font-size: 14px;
+}
+
+input {
+    width: 250px;
+    background-color: rgba(128, 128, 128, 0.13);
+    outline: none;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+}
+
+.signup {
+    width: 150px;
+    padding: 13px;
+    border-radius: 50px;
+    background-color: #00cc66;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
